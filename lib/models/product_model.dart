@@ -17,8 +17,8 @@ class Product {
         id: json["id"],
         name: json["name"],
         description: json["description"],
-        price: double.tryParse(json["price"]),
-        stock: int.tryParse(json["stock"]),
+        price: double.tryParse(json["price"].toString()),
+        stock: int.tryParse(json["stock"].toString()),
     );
 
     Map<String, dynamic> toJson() => {

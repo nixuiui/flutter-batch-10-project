@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_batch_9_project/helpers/helper.dart';
-import 'package:flutter_batch_9_project/models/order_model.dart';
+import 'package:flutter_batch_10_project/helpers/helper.dart';
+import 'package:flutter_batch_10_project/models/order_model.dart';
 
 class ProductItemSummaryWidget extends StatelessWidget {
 

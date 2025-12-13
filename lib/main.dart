@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_batch_9_project/blocs/auth/auth_cubit.dart';
-import 'package:flutter_batch_9_project/blocs/order/order_cubit.dart';
-import 'package:flutter_batch_9_project/blocs/theme/theme_cubit.dart';
-import 'package:flutter_batch_9_project/consts/routes.dart';
-import 'package:flutter_batch_9_project/data/local_storage/auth_local_storage.dart';
-import 'package:flutter_batch_9_project/data/remote_data/auth_remote_data.dart';
-import 'package:flutter_batch_9_project/helpers/injector.dart';
-import 'package:flutter_batch_9_project/helpers/themes/dark_theme.dart';
-import 'package:flutter_batch_9_project/helpers/themes/light_theme.dart';
+import 'package:flutter_batch_10_project/blocs/auth/auth_cubit.dart';
+import 'package:flutter_batch_10_project/blocs/order/order_cubit.dart';
+import 'package:flutter_batch_10_project/blocs/theme/theme_cubit.dart';
+import 'package:flutter_batch_10_project/consts/routes.dart';
+import 'package:flutter_batch_10_project/data/local_storage/auth_local_storage.dart';
+import 'package:flutter_batch_10_project/data/remote_data/auth_remote_data.dart';
+import 'package:flutter_batch_10_project/helpers/injector.dart';
+import 'package:flutter_batch_10_project/helpers/themes/dark_theme.dart';
+import 'package:flutter_batch_10_project/helpers/themes/light_theme.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() async {

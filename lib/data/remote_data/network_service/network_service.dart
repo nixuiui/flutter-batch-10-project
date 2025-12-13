@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_batch_9_project/data/local_storage/auth_local_storage.dart';
-import 'package:flutter_batch_9_project/data/remote_data/network_service/network_exception.dart';
-import 'package:flutter_batch_9_project/helpers/logging_interceptor.dart';
+import 'package:flutter_batch_10_project/data/local_storage/auth_local_storage.dart';
+import 'package:flutter_batch_10_project/data/remote_data/network_service/network_exception.dart';
+import 'package:flutter_batch_10_project/helpers/logging_interceptor.dart';
 
 class NetworkService {
   final requestTimeOut = 30;

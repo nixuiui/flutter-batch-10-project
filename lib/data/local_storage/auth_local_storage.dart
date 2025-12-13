@@ -1,4 +1,4 @@
-import 'package:flutter_batch_9_project/models/user_model.dart';
+import 'package:flutter_batch_10_project/models/user_model.dart';
 import 'package:hive/hive.dart';
 
 class AuthLocalStorage {

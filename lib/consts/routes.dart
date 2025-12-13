@@ -1,7 +1,7 @@
-import 'package:flutter_batch_9_project/pages/home/home_page.dart';
-import 'package:flutter_batch_9_project/pages/login_page.dart';
-import 'package:flutter_batch_9_project/pages/order_summary_screen.dart';
-import 'package:flutter_batch_9_project/pages/splash_screen.dart';
+import 'package:flutter_batch_10_project/pages/home/home_page.dart';
+import 'package:flutter_batch_10_project/pages/login_page.dart';
+import 'package:flutter_batch_10_project/pages/order_summary_screen.dart';
+import 'package:flutter_batch_10_project/pages/splash_screen.dart';
 
 class AppRoutes {
   static String get splash => "/splash";

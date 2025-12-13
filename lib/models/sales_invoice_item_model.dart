@@ -17,11 +17,11 @@ class SalesInvoiceItem {
 
     factory SalesInvoiceItem.fromJson(Map<String, dynamic> json) => SalesInvoiceItem(
         id: json["id"],
-        saleId: int.tryParse(json["sale_id"]),
-        productId: int.tryParse(json["product_id"]),
-        quantity: int.tryParse(json["quantity"]),
-        price: double.tryParse(json["price"]),
-        totalPrice: double.tryParse(json["total_price"]),
+        saleId: int.tryParse(json["sale_id"].toString()),
+        productId: int.tryParse(json["product_id"].toString()),
+        quantity: int.tryParse(json["quantity"].toString()),
+        price: double.tryParse(json["price"].toString()),
+        totalPrice: double.tryParse(json["total_price"].toString()),
     );
 
     Map<String, dynamic> toJson() => {

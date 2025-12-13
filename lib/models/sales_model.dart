@@ -20,8 +20,8 @@ class SalesInvoice {
 
     factory SalesInvoice.fromJson(Map<String, dynamic> json) => SalesInvoice(
         id: json["id"],
-        userId: int.tryParse(json["user_id"]),
-        totalPrice: double.tryParse(json["total_price"]),
+        userId: int.tryParse(json["user_id"].toString()),
+        totalPrice: double.tryParse(json["total_price"].toString()),
         saleDate: json["sale_date"] == null ? null : DateTime.parse(json["sale_date"]),
         items: json["items"] == null ? [] : List<SalesInvoiceItem>.from(json["items"]!.map((x) => SalesInvoiceItem.fromJson(x))),
         payments: json["payments"] == null ? [] : List<Payment>.from(json["payments"]!.map((x) => Payment.fromJson(x))),

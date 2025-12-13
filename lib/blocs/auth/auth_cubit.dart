@@ -1,6 +1,6 @@
-import 'package:flutter_batch_9_project/blocs/auth/auth_state.dart';
-import 'package:flutter_batch_9_project/data/local_storage/auth_local_storage.dart';
-import 'package:flutter_batch_9_project/data/remote_data/auth_remote_data.dart';
+import 'package:flutter_batch_10_project/blocs/auth/auth_state.dart';
+import 'package:flutter_batch_10_project/data/local_storage/auth_local_storage.dart';
+import 'package:flutter_batch_10_project/data/remote_data/auth_remote_data.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class AuthCubit extends Cubit<AuthState> {

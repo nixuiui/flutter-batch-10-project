@@ -1,5 +1,5 @@
-import 'package:flutter_batch_9_project/helpers/extensions/list_extension.dart';
-import 'package:flutter_batch_9_project/models/product_model.dart';
+import 'package:flutter_batch_10_project/helpers/extensions/list_extension.dart';
+import 'package:flutter_batch_10_project/models/product_model.dart';
 
 class OrderModel {
     final List<OrderItem>? items;

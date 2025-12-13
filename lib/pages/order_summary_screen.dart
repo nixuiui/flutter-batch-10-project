@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_batch_9_project/blocs/order/order_cubit.dart';
-import 'package:flutter_batch_9_project/blocs/order/order_state.dart';
-import 'package:flutter_batch_9_project/components/product_item_summary_widget.dart';
-import 'package:flutter_batch_9_project/helpers/helper.dart';
+import 'package:flutter_batch_10_project/blocs/order/order_cubit.dart';
+import 'package:flutter_batch_10_project/blocs/order/order_state.dart';
+import 'package:flutter_batch_10_project/components/product_item_summary_widget.dart';
+import 'package:flutter_batch_10_project/helpers/helper.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class OrderSummaryScreen extends StatefulWidget {

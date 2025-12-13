@@ -1,7 +1,7 @@
-import 'package:flutter_batch_9_project/blocs/order/order_state.dart';
-import 'package:flutter_batch_9_project/data/remote_data/sales_remote_data.dart';
-import 'package:flutter_batch_9_project/models/order_model.dart';
-import 'package:flutter_batch_9_project/models/product_model.dart';
+import 'package:flutter_batch_10_project/blocs/order/order_state.dart';
+import 'package:flutter_batch_10_project/data/remote_data/sales_remote_data.dart';
+import 'package:flutter_batch_10_project/models/order_model.dart';
+import 'package:flutter_batch_10_project/models/product_model.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class OrderCubit extends Cubit<OrderState> {

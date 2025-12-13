@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_batch_9_project/consts/colors.dart';
+import 'package:flutter_batch_10_project/consts/colors.dart';
 
 ThemeData darkTheme(context) => ThemeData(
   colorScheme: ColorScheme.fromSeed(

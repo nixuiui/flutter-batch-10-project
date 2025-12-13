@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:flutter_batch_9_project/models/sales_model.dart';
+import 'package:flutter_batch_10_project/models/sales_model.dart';
 
 class SalesInvoiceState extends Equatable {
 

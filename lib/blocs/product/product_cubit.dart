@@ -1,5 +1,5 @@
-import 'package:flutter_batch_9_project/blocs/product/product_state.dart';
-import 'package:flutter_batch_9_project/data/remote_data/product_remote_data.dart';
+import 'package:flutter_batch_10_project/blocs/product/product_state.dart';
+import 'package:flutter_batch_10_project/data/remote_data/product_remote_data.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class ProductCubit extends Cubit<ProductState> {

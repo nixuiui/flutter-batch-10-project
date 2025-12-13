@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_batch_9_project/blocs/product/product_cubit.dart';
-import 'package:flutter_batch_9_project/blocs/sales_invoice/sales_invoice_cubit.dart';
-import 'package:flutter_batch_9_project/pages/home/invoice_tab.dart';
-import 'package:flutter_batch_9_project/pages/home/pos_tab.dart';
-import 'package:flutter_batch_9_project/pages/home/profile_tab.dart';
+import 'package:flutter_batch_10_project/blocs/product/product_cubit.dart';
+import 'package:flutter_batch_10_project/blocs/sales_invoice/sales_invoice_cubit.dart';
+import 'package:flutter_batch_10_project/pages/home/invoice_tab.dart';
+import 'package:flutter_batch_10_project/pages/home/pos_tab.dart';
+import 'package:flutter_batch_10_project/pages/home/profile_tab.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../helpers/injector.dart';
